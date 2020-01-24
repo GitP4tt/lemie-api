@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "lemie-api",
     products: [
-        .library(name: "lemie-api", targets: ["App"]),
+        .library(name: "lemie-api", targets: ["App"])
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
